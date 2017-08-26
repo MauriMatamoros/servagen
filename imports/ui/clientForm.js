@@ -2,7 +2,7 @@ import React from 'react';
 import { Meteor } from 'meteor/meteor';
 import { Clients } from '../api/clients';
 
-export default class clientForm extends React.Component {
+export default class ClientForm extends React.Component {
   onSubmit(e) {
     e.preventDefault();
     let email = this.refs.email.value.trim();
