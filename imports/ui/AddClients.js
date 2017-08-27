@@ -57,8 +57,10 @@ export default class AddClients extends React.Component {
         </div>
         <br></br>
         <div className="row">
-          <div className="col-md-6 col-md-offset-5 col-sm-6 col-sm-offset-5 col-xs-6 col-xs-offset-5">
-            <button className="btn btn-primary" >informate!</button>
+          <div className="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 col-xs-offset-3 col-xs-6">
+            <div className="text-center">
+              <button className="btn btn-primary btn-md btn-block">informate!</button>
+            </div>
           </div>
         </div>
       </form>
