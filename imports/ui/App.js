@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ClientForm from './ClientForm';
+import addClients from './addClients';
 import NavBar from './NavBar';
 
 export default class App extends React.Component {
@@ -8,7 +8,7 @@ export default class App extends React.Component {
     return (
       <div>
         <NavBar/>
-        <ClientForm/>
+        <addClients/>
       </div>
     );
   }
