@@ -31,12 +31,36 @@ export default class AddClients extends React.Component {
   render() {
     return(
       <form onSubmit={this.onSubmit.bind(this)}>
-        <input type="text" ref="email" name="email" placeholder="Email"/>
-        <input type="text" ref="firstName" name="firstName" placeholder="Nombre"/>
-        <input type="text" ref="lastName" name="lastName" placeholder="Apellido"/>
-        <input type="text" ref="cellphoneNumber" name="cellphoneNumber" placeholder="Celular"/>
-        <input type="text" ref="age" name="age" placeholder="Edad"/>
-        <button className="btn btn-primary" >mantengase informado</button>
+        <div className="input-group">
+          <span className="input-group-addon" id="sizing-addon2">@</span>
+          <input type="text" className="form-control" ref="email" name="email" placeholder="Email" aria-describedby="sizing-addon2"/>
+        </div>
+        <br></br>
+        <div className="input-group">
+          <span className="input-group-addon" id="sizing-addon2">@</span>
+          <input type="text" className="form-control" ref="firstName" name="firstName" placeholder="Nombre" aria-describedby="sizing-addon2"/>
+        </div>
+        <br></br>
+        <div className="input-group">
+          <span className="input-group-addon" id="sizing-addon2">@</span>
+          <input type="text" className="form-control" ref="lastName" name="lastName" placeholder="Apellido" aria-describedby="sizing-addon2"/>
+        </div>
+        <br></br>
+        <div className="input-group">
+          <span className="input-group-addon" id="sizing-addon2">@</span>
+          <input type="text" className="form-control" ref="cellphoneNumber" name="cellphoneNumber" placeholder="Celular" aria-describedby="sizing-addon2"/>
+        </div>
+        <br></br>
+        <div className="input-group">
+          <span className="input-group-addon" id="sizing-addon2">@</span>
+          <input type="text" className="form-control" ref="age" name="age" placeholder="Edad" aria-describedby="sizing-addon2"/>
+        </div>
+        <br></br>
+        <div className="row">
+          <div className="col-md-6 col-md-offset-5 col-sm-6 col-sm-offset-5 col-xs-6 col-xs-offset-5">
+            <button className="btn btn-primary" >informate!</button>
+          </div>
+        </div>
       </form>
     );
   };
