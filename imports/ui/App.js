@@ -1,6 +1,6 @@
 import React from 'react';
 
-import addClients from './addClients';
+import AddClients from './AddClients';
 import NavBar from './NavBar';
 
 export default class App extends React.Component {
@@ -8,7 +8,7 @@ export default class App extends React.Component {
     return (
       <div>
         <NavBar/>
-        <addClients/>
+        <AddClients/>
       </div>
     );
   }
