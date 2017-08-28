@@ -31,7 +31,8 @@ export default class AddClients extends React.Component {
   render() {
     return(
       <div className="jumbotron">
-        <div className="row">
+        <div className="row text-center">
+          <h4>Mantente Informado</h4>
           <div className="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
             <form onSubmit={this.onSubmit.bind(this)}>
               <div className="input-group">
@@ -62,7 +63,7 @@ export default class AddClients extends React.Component {
               <div className="row">
                 <div className="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 col-xs-offset-3 col-xs-6">
                   <div className="text-center">
-                    <button className="btn btn-primary btn-md btn-block">¡informate!</button>
+                    <button className="btn btn-primary btn-md btn-block">¡Informate!</button>
                   </div>
                 </div>
               </div>
