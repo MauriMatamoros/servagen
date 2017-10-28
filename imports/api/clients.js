@@ -36,7 +36,7 @@ Meteor.methods({
       lastName: client.lastName,
       cellphoneNumber: client.cellphoneNumber,
       age: client.age
-    })
+    });
 
 
     Clients.insert({
